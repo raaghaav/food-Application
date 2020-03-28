@@ -1,0 +1,4 @@
+h2::after{
+    content: " content after h2 through css in html done by h2:: after{} ";
+    color: tomato;
+}
