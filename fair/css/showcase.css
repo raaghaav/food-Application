@@ -65,13 +65,35 @@ li{
     width: 70vh;
 }
 
+.btn-container{
+    margin-top: 1.6rem;
+}
+
 .btn{
+    display: inline-block;
     color: white;
     font-size: 55%;
-    padding: 1.2rem;
+    padding: 1rem 1rem;
     background-color: tomato;
     border-radius: 1.7rem;
     font-family: sans-serif;
-   
+    cursor: pointer;
+    border: 0.1rem solid tomato;
+    margin-right: 0.5rem;
+    transition: transform 0.3s;
+}
 
+btn:hover{
+    transform: scale(1.1);
+}
+
+.btn-empty{
+    background-color: transparent;
+    color: white;
+    
+}
+
+.btn-empty:hover{
+    background-color: tomato;
+    transform: scale(1.1);
 }
