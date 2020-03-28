@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+
+.showcase{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url("../imgs/showcase_bg.jpg");
+    height: 100vh;
+    background-size: 100vw;
+    background-position: center;
+};
+
+.nav-ul{
+    display: flex;
+    justify-content: flex-end;
+};
+
+.nav-links{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+};
+
+li{
+    list-style: none;
+};
+
+
+.main-heading{
+    color: white;
+    font-family:  'Work Sans', sans-serif;
+    line-height: 145%;
+};
+
+.span-styler{
+    color: tomato;
+}
+
+
+.text-box{
+    position: absolute;
+    top: 35vh;
+    left: 17vw;
+    font-size: 1.3rem;
+    width: 70vh;
+};
+
+
