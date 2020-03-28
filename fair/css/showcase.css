@@ -11,12 +11,12 @@
     height: 100vh;
     background-size: 100vw;
     background-position: center;
-};
+}
 
 .nav-ul{
     display: flex;
     justify-content: flex-end;
-};
+}
 
 .nav-links{
     color: white;
@@ -24,18 +24,18 @@
 
 a{
     text-decoration: none;
-};
+}
 
 li{
     list-style: none;
-};
+}
 
 
 .main-heading{
     color: white;
     font-family:  'Work Sans', sans-serif;
     line-height: 145%;
-};
+}
 
 .span-styler{
     color: tomato;
@@ -48,7 +48,7 @@ li{
     left: 17vw;
     font-size: 1.3rem;
     width: 70vh;
-};
+}
 
 .btn{
     color: white;
