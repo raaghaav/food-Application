@@ -5,6 +5,9 @@
     text-transform: uppercase;
 }
 
+html{
+    font-size: 1rem;
+}
 
 .showcase{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url("../imgs/showcase_bg.jpg");
@@ -18,8 +21,20 @@
     justify-content: flex-end;
 }
 
+.nav-li{
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+.nav-li:hover{
+    border-bottom: 0.1rem solid tomato;
+}
+
 .nav-links{
     color: white;
+    font-family: sans-serif;
+
 }
 
 a{
@@ -46,12 +61,16 @@ li{
     position: absolute;
     top: 35vh;
     left: 17vw;
-    font-size: 1.3rem;
+    font-size: 130%;
     width: 70vh;
 }
 
 .btn{
     color: white;
+    font-size: 55%;
+    padding: 1.2rem;
+    background-color: tomato;
+    border-radius: 1.7rem;
+   
+
 }
-
-
