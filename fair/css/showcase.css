@@ -7,6 +7,7 @@
 
 html{
     font-size: 1rem;
+    color: gray;
 }
 
 .showcase{
@@ -136,6 +137,7 @@ h2::after{
 .icon{
     color: tomato;
     font-size: 250%;
+    margin-bottom: 0.6rem;
 }
 
 h3{
