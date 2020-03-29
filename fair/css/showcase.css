@@ -158,7 +158,7 @@ h3{
 .plan-parent{
     display: flex;
     justify-content: space-evenly;
-    height: 60vh;
+    height: 55vh;
     margin-top: 4rem;
 }
 
@@ -174,7 +174,7 @@ h3{
 }
 
 .plan-header{
-    height: 30%;
+    height: 40%;
     border-bottom: 0.09rem solid gray;
     text-align: center;
     font-weight: bold;
@@ -182,10 +182,21 @@ h3{
 
 .plan-feature{
     border-bottom: 0.09rem solid gray;
-    height: 39%;
+    height: 43%;
     line-height: 1.7rem;
     margin-top: 1rem;
 }
 .tick{
     color: tomato;
+}
+
+.plan-btn__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+a.signup-btn{
+    font-size: 101.5%;
 }
