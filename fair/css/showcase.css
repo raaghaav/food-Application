@@ -13,7 +13,7 @@ html{
 .showcase{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url("../imgs/showcase_bg.jpg");
     height: 100vh;
-    background-size: 100vw;
+    background-size: cover ;
     background-position: center;
 }
 
@@ -121,11 +121,15 @@ h2::after{
 .container-parent{
     display: flex;
     text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .container{
+    width: 28%;
     padding: 1.5rem 2rem;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    margin-bottom: 1rem;
     margin-right: 2rem;
     transition: transform 0.4s;
 }
