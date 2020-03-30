@@ -175,7 +175,7 @@ h3{
 }
 
 .plan-child:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .plan-header{
@@ -183,6 +183,11 @@ h3{
     border-bottom: 0.09rem solid gray;
     text-align: center;
     font-weight: bold;
+}
+
+.dollar{
+    color: tomato;
+    font-size: 160%;
 }
 
 .plan-feature{
