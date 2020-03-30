@@ -1,4 +1,15 @@
 h2::after{
-    content: " content after h2 through css in html done by h2:: after{} ";
-    color: tomato;
+  content: "";
+  font-size: 2rem;
+  color:green;
+  display: block;
+height:0.2rem;
+width:20vw;
+background-color: red;
+
+}
+.icon{
+  font-size:8rem;
+  color:blue;
+  
 }
