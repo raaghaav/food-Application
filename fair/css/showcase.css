@@ -214,3 +214,38 @@ h3{
 a.signup-btn{
     font-size: 101.5%;
 }
+
+.signup{
+    background-color: rgb(19, 15, 15);
+}
+.signup-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 3rem;
+}
+
+.bg-video__content{
+    width: 40%;
+}
+
+.signup-form{
+    width: 50%;
+    transform: scale(0.9);
+}
+
+input[type = "text"],
+input[type = "email"],
+select , textarea {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem 0.5rem;
+}
+
+.form-entry :last-child{
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    height : 4rem ;
+}
+

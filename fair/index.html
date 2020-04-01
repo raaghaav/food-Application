@@ -67,9 +67,15 @@
 
    </section>
 
-<section class="steps">
+   <section class="steps">
     <h2>steps to follow</h2>
 
+    <div class="container-flex">
+        <div class="image-container">
+            <img src="./imgs/Capture.png" alt="">
+        </div>
+        
+    </div>
 </section>
 
 
@@ -134,6 +140,53 @@
 
    </section>
 
+
+
+   <section class="signup">
+       <h2>contact us</h2>
+       <div class="signup-container">
+           <video class="bg-video__content" autoplay muted loop>
+               <source src="./imgs/Avocado.mp4" type="video/mp4">
+           </video>
+
+           <form class="signup-form" action="/signup" method="POST">
+
+                <div class="form-entry">
+                <label for="name">name:</label>
+                <input type="text" id="name" placeholder="name" required>
+            </div>
+                <div class="form-entry">
+               <label for="email">Email:</label>
+               <input type="email" placeholder="email" required>
+            </div>
+
+            <div class="form-entry">
+                <label for="find-us">how did you find us</label>
+                <select id="find-us">
+                    <option value="friends">friends</option>
+                    <option value="advertisements">advertisements</option>
+                    <option value="search">search</option>
+                    <option value="others">others</option>
+                </select>
+            </div>
+
+            <div class="form-entry">
+                <label for="comment">drop us a line</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-entry">
+                <input type="checkbox" name="" id="" required>
+                <span>i agree to the terms and conditions</span>
+            </div>
+             
+            <div class="form-entry">
+                <button class="btn btn-full">send message</button>
+            </div>
+            
+           </form>
+       </div>
+   </section>
 
 <script src="./js/script.js"></script>
 </body>
