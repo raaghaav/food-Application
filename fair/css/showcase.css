@@ -159,6 +159,10 @@ h3{
     font-weight: 100;
 }
 
+.reviews{
+    background-color: wheat;
+}
+
 .plan-parent{
     display: flex;
     justify-content: space-evenly;
@@ -192,6 +196,7 @@ h3{
 .dollar{
     color: tomato;
     font-size: 160%;
+    margin-top: 5rem;
 }
 
 .plan-feature{
@@ -227,6 +232,7 @@ a.signup-btn{
 
 .bg-video__content{
     width: 40%;
+    margin-top: -6rem;
 }
 
 .signup-form{
@@ -242,24 +248,39 @@ select , textarea {
     padding: 1rem 0.5rem;
 }
 
-.form-entry :last-child{
-    display : flex ;
-    justify-content : center ;
-    align-items : center ;
-    height : 4rem ;
+.btn_form{
+    display: flex;
+   /* justify-content: center;
+    align-items: center; */
+    height: 4rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+
 }
 
 .footer{
-    background-color: whitesmoke;
+    background-color: black;
     justify-content: space-evenly;
-    
+    height: 25vh;
 }
 
 .span-footer{
     display: flex;
+    justify-content: space-evenly;
 }
 
+h5{
+
+}
 .f_icon{
     font-size: 1.5rem;
+    padding: 0.4rem;
 }
 
+.copywrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
