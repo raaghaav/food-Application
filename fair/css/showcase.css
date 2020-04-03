@@ -51,6 +51,7 @@ li{
     color: white;
     font-family:  'Work Sans', sans-serif;
     line-height: 145%;
+    font-size: 200%;
 }
 
 .span-styler{
@@ -158,6 +159,54 @@ h3{
     font-family: sans-serif;
     font-weight: 100;
 }
+.how-to{
+    background-color: rgb(255, 222, 217);
+}
+.howto-container{
+    display: flex;
+}
+
+.steps{
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
+
+.steps-container{
+    margin-bottom: 2rem;
+}
+.steps-val{
+    float: left;
+    margin-right: 1.5rem;
+    font-size: 150%;
+    height: 4rem;
+    width: 4rem;
+    border: 0.1rem solid tomato;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 1rem;
+    color: red;
+    margin-bottom: 1.5rem;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.steps-para{
+    font-size: 140%;
+    font-family: serif;
+    font-weight: 100;
+
+}
+.howto-image{
+    height: 95vh;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    width: 20vw;
+}
+
 
 .reviews{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(../imgs/showcase_bg.jpg);
@@ -237,9 +286,15 @@ h3{
 }
 
 .dollar{
+    display: inline-block;
+    margin-top: 1rem;
     color: tomato;
     font-size: 160%;
-    margin-top: 5rem;
+}
+
+.per-meal{
+    display: inline-block;
+    margin-top: 0.8rem;
 }
 
 .plan-feature{
@@ -298,7 +353,6 @@ select , textarea {
     height: 4rem;
     margin-left: 15rem;
     margin-top: 2rem;
-
 }
 
 .footer{
@@ -313,17 +367,16 @@ select , textarea {
 }
 
 h5{
-
+    margin-left: 1rem;
 }
 .f_icon{
     font-size: 1.5rem;
     padding: 0.4rem;
+   
+}
 }
 
 .copywrite{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    margin-right: 6rem;
+    display: inline-flex;
+    margin-left: 124px;
 }
